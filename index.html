@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Popup form</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script defer src="js/script.js"></script>
+</head>
+<body>
+    <a id="popup-link" href="#popup">Help desk form</a>
+    <div class="popup " id="popup">
+        <div class="popup-header">
+            <div class="popup-title">Use This Form To Contact GC IT Services</div>
+            <button data-close-button class="close-button">&times;</button>
+        </div>
+        <div class="modal">
+           <form class="form">
+               <label class="label" for="name">Enter Your Name</label>
+            <input class="input" type="text" name="name" placeholder="Name" required minlength="2" maxlength="20">
+            <label class="label" for="email">Enter Your Email</label>
+            <input class="input" type="text" name="Email" placeholder="Email" required >
+            <label class="label" for="textarea">Message</label>
+            <textarea class="textarea" name="textarea" cols="50" rows="5" ></textarea>
+            <button type="button" class="button">Submit</button>
+           </form>
+        </div>
+    </div>
+    <div id="overlay"></div>
+</body>
+</html>
