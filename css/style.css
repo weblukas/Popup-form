@@ -31,7 +31,6 @@
     justify-content: space-between;
     align-items: center;
     border-radius: 10px;
-    
     background-color: #00008B;
     color: #fff;
 
@@ -64,7 +63,15 @@
     width: 70%;
     height: 2rem;
     margin-top: 10px;
-    
+}
+.button {
+    margin-top: 30px;
+    width: 260px;
+    height: 2.5rem;
+    font-size: 1.3rem;
+    color: #00008B ;
+    border: 1px solid #00008B;
+    background-color: #D3D3D3 ;
 }
 
 #overlay {
@@ -82,4 +89,5 @@
 #overlay.active {
     opacity: 1;
     pointer-events: all;
+    
 }

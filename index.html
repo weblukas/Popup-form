@@ -8,7 +8,7 @@
     <script defer src="js/script.js"></script>
 </head>
 <body>
-    <a id="popup-link" href="#popup">Help desk form</a>
+    <a id="popup-link" href="#popup">Helpdesk form</a>
     <div class="popup " id="popup">
         <div class="popup-header">
             <div class="popup-title">Use This Form To Contact GC IT Services</div>
@@ -17,12 +17,12 @@
         <div class="modal">
            <form class="form">
                <label class="label" for="name">Enter Your Name</label>
-            <input class="input" type="text" name="name" placeholder="Name" required minlength="2" maxlength="20">
+            <input id="name-input" class="input" type="text" name="name" placeholder="Name" required minlength="2" maxlength="20">
             <label class="label" for="email">Enter Your Email</label>
-            <input class="input" type="text" name="Email" placeholder="Email" required >
+            <input id="email-input" class="input" type="text" name="Email" placeholder="Email" required >
             <label class="label" for="textarea">Message</label>
             <textarea class="textarea" name="textarea" cols="50" rows="5" ></textarea>
-            <button type="button" class="button">Submit</button>
+            <button type="submit" class="button">Submit</button>
            </form>
         </div>
     </div>
